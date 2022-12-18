@@ -1,0 +1,307 @@
+body{
+    margin:0px;
+    padding:0px;
+}
+
+.klasa1{
+    width: 100%;
+    height: 1000px;
+    background-image: url(../burger.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.tekst{
+    width:100%;
+    height:100%;
+    font-size: 26px;
+    color:white;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.tekst h1{
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+    transition: 0.3s ease;
+}
+
+.tekst p{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-style: italic;
+    transition: 0.3s ease;
+}
+
+.tekst h1:hover{
+    color:lightblue;
+}
+
+.tekst p:hover{
+    color:red;
+}
+
+.nav{
+    width: 90%;
+    height: 100px;
+    padding:0px 100px;
+    position: fixed;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:box-shadow rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.nav .logo{
+    width: 100px;
+    height: 100px;
+}
+
+.nav ul{
+    float:right;
+}
+
+.nav ul li{
+    display: inline;
+    list-style: none;
+}
+
+.nav ul li a{
+    font-size: 18px;
+    text-transform: uppercase;
+    padding:0px 30px;
+    color:white;
+    text-decoration: none;
+    font-weight:bold;
+    transition: 0.3s ease;
+}
+
+.nav ul li a:hover{
+    color:orange;
+    border-bottom: 1px solid lightblue;
+}
+
+
+.nav1{
+    width: 90%;
+    height: 100px;
+    padding:0px 100px;
+    position: fixed;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+}
+
+.nav1 .logo{
+    width: 100px;
+    height: 100px;
+}
+
+.nav1 ul{
+    float:right;
+}
+
+.nav1 ul li{
+    display: inline;
+    list-style: none;
+}
+
+.nav1 ul li a{
+    font-size: 18px;
+    text-transform: uppercase;
+    padding:0px 30px;
+    color:white;
+    text-decoration: none;
+    font-weight:bold;
+    transition: 0.3s ease;
+}
+
+.nav1 ul li a:hover{
+    color:orange;
+    border-bottom: 1px solid lightblue;
+}
+
+.kolona{
+    float:left;
+    width:32.6%;
+    padding:5px;
+    margin-top:150px;
+}
+
+.red::after{
+    content:"";
+    display:table;
+    clear:both;
+}
+
+.kolona h1{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.kolona p{
+    font-weight: bold;
+    font-size: 18px;
+    color:red;
+}
+
+.kolona h1:hover{
+    color:orange;
+    letter-spacing: 2px;
+}
+
+.nav2{
+    width: 90%;
+    height: 100px;
+    padding:0px 100px;
+    position: fixed;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+}
+
+.nav2 .logo{
+    width: 100px;
+    height: 100px;
+}
+
+.nav2 ul{
+    float:right;
+}
+
+.nav2 ul li{
+    display: inline;
+    list-style: none;
+}
+
+.nav2 ul li a{
+    font-size: 18px;
+    text-transform: uppercase;
+    padding:0px 30px;
+    color:white;
+    text-decoration: none;
+    font-weight:bold;
+    transition: 0.3s ease;
+}
+
+.nav2 ul li a:hover{
+    color:orange;
+    border-bottom: 1px solid lightblue;
+}
+
+
+.klasa3{
+    width: 100%;
+    height: 1000px;
+    background-image: url(../kontakt.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.kontakt{
+    width: 650px;
+    height: 400px;
+    background-color: #fff;
+    box-shadow: 0 0 20px 0 grey;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    position:fixed;
+    background-color: black;
+}
+
+.polje{
+    width:400px;
+    height:40px;
+    margin-top:20px;
+    padding-left:10px;
+    padding-right:10px;
+    border:1px solid darkgray;
+    border-radius:14px;
+    outline:none;
+    margin-left:5%;
+}
+
+.textareap{
+    height:150px;
+    width:400px;
+    padding-top:10px;
+    margin-top:20px;
+    margin-left:5%;  
+}
+
+.dugme{
+    border-radius:20px;
+    color: white;
+    margin-top:10px;
+    padding:10px;
+    background-color: grey;
+    border:none;
+    margin-left:5%;
+    transition:0.3s ease;
+}
+
+.dugme:hover{
+    border-radius:30px;
+    color:cyan;
+    background-color: green;
+    border:1px solid black;
+}
+
+@media screen and (min-width:300px) and (max-width:420px){
+    .nav{
+        height:150px;
+        display:block;
+        padding-top:20px;
+        width:420px;
+    }
+
+    .nav ul{
+        float:none;
+    }
+
+    .nav ul li{
+        display:block;
+        list-style:none;
+    }
+
+    .nav ul li a{
+        font-size: 18px;
+        text-transform: uppercase;
+        padding:0px 30px;
+        color:white;
+        text-decoration: none;
+        font-weight:bold;
+    }
+
+    .nav .logo{
+        display: none;
+    }
+
+    .klasa1{
+        background-image:url(../telefon.jpg);
+        width:420px;
+        height: 560px;
+    }
+
+    .tekst h1{
+        text-align: left;
+        font-size: 15px;
+        margin-right: 45px;
+    }
+
+    .tekst p{
+        text-align: center;
+        font-size:10px;
+        margin-right:50px;
+    }
+}
+
+
+
