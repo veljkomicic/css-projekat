@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <title>FAST FOOD "OBELIX"</title>
+    <script src="script.js"></script>
 </head>
 <body>
     <div class="klasa2">
@@ -22,8 +23,9 @@
 
     <div class="red">
         <div class="kolona">
+
             <img src="slike/hamburger1.jpg" width="90%">
-            <h1>HAMBURGER</h1>
+            <h1 onclick="proveriPopust(10)">HAMBURGER</h1>
             <p>Cena:350RSD</p>
             <img src="slike/capricciosa.jpg" width="90%">
             <h1>KAPRIĆOZA</h1>
@@ -54,6 +56,7 @@
             <h1>TOST SENDVIČ</h1>
             <p>Cena:300RSD</p>
         </div>
+        <button id="button" onclick="dostupnost()">Porverite da li smo u vasem gradu</button>
     </div>
 
     

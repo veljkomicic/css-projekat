@@ -254,6 +254,17 @@ body{
     border:1px solid black;
 }
 
+#Forma input[type = submit]{
+    bottom:20px;
+    right:20px;
+    height: 100px;
+    width: 150px;
+    background-color: blue;
+    position: fixed;
+    color: white;
+    font-weight: bold;
+}
+
 @media screen and (min-width:300px) and (max-width:420px){
     .nav{
         height:150px;
@@ -302,6 +313,8 @@ body{
         margin-right:50px;
     }
 }
+
+
 
 
 
